@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    bootstrap="vendor/autoload.php"
+    colors="true"
+    cacheResult="false"
+>
+    <testsuites>
+        <testsuite name="main">
+            <file>tests/IsxTest.php</file>
+        </testsuite>
+    </testsuites>
+    <coverage>
+        <include>
+            <!-- <file>src/Isx.php</file> -->
+            <directory suffix=".php">src</directory>
+        </include>
+    </coverage>
+</phpunit>
