@@ -13,6 +13,20 @@ You can simple do this:
 if (is_null_any($a, $b, $c)) {
 ```
 
+## Installing
+
+Using Composer just run:
+
+`composer require faelv/isx`
+
+**DO NOT FORGET TO IMPORT THE FUNCTIONS YOU WANT TO USE!**
+```PHP
+<?php
+
+use function Isx\is_empty_all;
+use function Isx\{is_null_all, is_any};
+```
+
 ## Available Functions
 
 ### `is_null_all`
